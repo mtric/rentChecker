@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFlat">
+
+    <EditText
+        android:id="@+id/streetName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="5dp"
+        android:autofillHints="Street name"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Street name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/houseNr"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="5dp"
+        android:autofillHints="House number"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/house_number"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/plzNr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="5dp"
+        android:autofillHints="Zip code"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/zip_code"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/cityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="5dp"
+        android:autofillHints="City name"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/city_name"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/rentPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="5dp"
+        android:autofillHints="Rent fee"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/rent_fee"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/flatSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="5dp"
+        android:autofillHints="Size in sqm"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/size_in_sqm"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/flatRooms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="5dp"
+        android:autofillHints="Number of rooms"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/number_of_rooms"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/freeDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="5dp"
+        android:autofillHints="Place is free from"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/place_is_free_from"
+        android:clickable="true"
+        android:inputType="none"
+        android:focusable="false"
+        />
+
+    <EditText
+        android:id="@+id/telNr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="5dp"
+        android:autofillHints="Telefon number"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/telefon_number"
+        android:inputType="phone" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/bt_submit_flat"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="240dp"
+        android:text="@string/submit" />
+
+    <Button
+        android:id="@+id/bt_back_flat"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="240dp"
+        android:text="@string/back_to_main" />
+</LinearLayout>
+
+</LinearLayout>
